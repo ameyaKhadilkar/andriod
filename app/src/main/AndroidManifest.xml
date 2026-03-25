@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:maxSdkVersion="32"/>
+
+    <application
+        android:name=".SugarSaathiApp"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SugarSaathi">
+
+        <!-- Splash / entry point -->
+        <activity
+            android:name=".ui.SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.SugarSaathi">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ui.onboarding.OnboardingActivity"
+            android:theme="@style/Theme.SugarSaathi"/>
+
+        <activity android:name=".ui.home.HomeActivity"
+            android:theme="@style/Theme.SugarSaathi.WithActionBar"/>
+
+        <activity android:name=".ui.checkin.CheckinActivity"
+            android:theme="@style/Theme.SugarSaathi"/>
+
+        <activity android:name=".ui.checkin.CongratulationsActivity"
+            android:theme="@style/Theme.SugarSaathi"/>
+
+        <activity android:name=".ui.checkin.ReflectionActivity"
+            android:theme="@style/Theme.SugarSaathi"/>
+
+        <activity android:name=".ui.meal.MealActivity"
+            android:theme="@style/Theme.SugarSaathi.WithActionBar"/>
+
+        <activity android:name=".ui.bloodsugar.BloodSugarActivity"
+            android:theme="@style/Theme.SugarSaathi.WithActionBar"/>
+
+        <activity android:name=".ui.calendar.CalendarActivity"
+            android:theme="@style/Theme.SugarSaathi.WithActionBar"/>
+
+        <activity android:name=".ui.report.WeeklyReportActivity"
+            android:theme="@style/Theme.SugarSaathi.WithActionBar"/>
+
+        <activity android:name=".ui.doctor.DoctorActivity"
+            android:theme="@style/Theme.SugarSaathi.WithActionBar"/>
+
+        <activity android:name=".ui.settings.SettingsActivity"
+            android:theme="@style/Theme.SugarSaathi.WithActionBar"/>
+
+        <receiver
+            android:name=".notification.CheckinReceiver"
+            android:exported="false"/>
+    </application>
+
+</manifest>

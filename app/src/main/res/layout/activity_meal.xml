@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <include layout="@layout/include_toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Breakfast -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="1dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="@string/meal_breakfast" android:textStyle="bold" android:textSize="16sp"
+                        android:layout_marginBottom="4dp"/>
+                    <TextView android:id="@+id/tvBreakfastItems" android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:textColor="@color/text_secondary"
+                        android:layout_marginBottom="10dp"/>
+                    <Button android:id="@+id/btnAddBreakfast" android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:text="@string/meal_add"
+                        style="@style/Widget.Material3.Button.OutlinedButton"/>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Lunch -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="1dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="@string/meal_lunch" android:textStyle="bold" android:textSize="16sp"
+                        android:layout_marginBottom="4dp"/>
+                    <TextView android:id="@+id/tvLunchItems" android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:textColor="@color/text_secondary"
+                        android:layout_marginBottom="10dp"/>
+                    <Button android:id="@+id/btnAddLunch" android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:text="@string/meal_add"
+                        style="@style/Widget.Material3.Button.OutlinedButton"/>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Snack -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="1dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="@string/meal_snack" android:textStyle="bold" android:textSize="16sp"
+                        android:layout_marginBottom="4dp"/>
+                    <TextView android:id="@+id/tvSnackItems" android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:textColor="@color/text_secondary"
+                        android:layout_marginBottom="10dp"/>
+                    <Button android:id="@+id/btnAddSnack" android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:text="@string/meal_add"
+                        style="@style/Widget.Material3.Button.OutlinedButton"/>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Dinner -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="1dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="@string/meal_dinner" android:textStyle="bold" android:textSize="16sp"
+                        android:layout_marginBottom="4dp"/>
+                    <TextView android:id="@+id/tvDinnerItems" android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:textColor="@color/text_secondary"
+                        android:layout_marginBottom="10dp"/>
+                    <Button android:id="@+id/btnAddDinner" android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:text="@string/meal_add"
+                        style="@style/Widget.Material3.Button.OutlinedButton"/>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

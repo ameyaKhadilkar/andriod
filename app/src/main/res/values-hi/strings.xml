@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SugarSaathi</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_welcome_title">SugarSaathi में आपका स्वागत है 🌟</string>
+    <string name="onboarding_welcome_subtitle">मधुमेह देखभाल के लिए आपका प्यारा साथी</string>
+    <string name="onboarding_name_hint">आपका नाम (या आपकी माँ का नाम)</string>
+    <string name="onboarding_name_required">कृपया नाम दर्ज करें</string>
+    <string name="onboarding_select_language">अपनी भाषा चुनें</string>
+    <string name="onboarding_photo_title">परिवार की फ़ोटो लगाएं</string>
+    <string name="onboarding_photo_subtitle">प्रेरणा के लिए अपने प्रियजनों की एक फ़ोटो (वैकल्पिक)</string>
+    <string name="onboarding_pick_photo">फ़ोटो चुनें</string>
+    <string name="onboarding_photo_hint">यह फ़ोटो आपके होम स्क्रीन पर दिखेगी</string>
+    <string name="onboarding_photo_selected">फ़ोटो चुनी गई ✓</string>
+    <string name="onboarding_notif_title">दैनिक चेक-इन याद दिलाना</string>
+    <string name="onboarding_notif_subtitle">हम आपको किस समय चेक-इन की याद दिलाएं?</string>
+    <string name="onboarding_btn_finish">शुरू करें!</string>
+
+    <!-- Home -->
+    <string name="home_btn_checkin">✅ आज चेक इन करें</string>
+    <string name="home_btn_meal">🍽️ भोजन लॉग</string>
+    <string name="home_btn_blood_sugar">💉 ब्लड शुगर</string>
+    <string name="home_btn_calendar">📅 कैलेंडर</string>
+    <string name="home_btn_report">📊 साप्ताहिक रिपोर्ट</string>
+    <string name="home_btn_doctor">🏥 डॉक्टर विज़िट</string>
+    <string name="home_btn_settings">⚙️ सेटिंग्स</string>
+    <string name="home_checked_in_today">आज चेक इन हो गया!</string>
+
+    <!-- Check-in -->
+    <string name="checkin_question">क्या आपने आज अच्छा आहार लिया?</string>
+    <string name="checkin_subtitle">ईमानदार रहें — हर दिन बेहतर करने का एक और मौका है।</string>
+    <string name="checkin_btn_yes">हाँ, लिया! 😊</string>
+    <string name="checkin_btn_no">आज नहीं 😔</string>
+
+    <!-- Congratulations -->
+    <string name="congrats_title">शाबाश! 🎉</string>
+
+    <!-- Reflection -->
+    <string name="reflection_title">कोई बात नहीं!</string>
+    <string name="reflection_subtitle">कल एक नई शुरुआत है। क्या आप बताना चाहेंगे कि आज क्या मुश्किल था?</string>
+    <string name="reflection_hint">क्या हुआ? (वैकल्पिक)</string>
+
+    <!-- Meal -->
+    <string name="meal_title">भोजन लॉग</string>
+    <string name="meal_breakfast">नाश्ता</string>
+    <string name="meal_lunch">दोपहर का खाना</string>
+    <string name="meal_snack">स्नैक</string>
+    <string name="meal_dinner">रात का खाना</string>
+    <string name="meal_add">+ जोड़ें</string>
+    <string name="meal_nothing_logged">अभी तक कुछ दर्ज नहीं</string>
+    <string name="meal_quick_select">जल्दी चुनें</string>
+    <string name="meal_custom_food">कस्टम खाना जोड़ें</string>
+    <string name="meal_mark_healthy">स्वस्थ भोजन के रूप में चिह्नित करें</string>
+
+    <!-- Blood Sugar -->
+    <string name="bloodsugar_title">ब्लड शुगर और HbA1c</string>
+    <string name="bs_tab_blood_sugar">ब्लड शुगर</string>
+    <string name="bs_tab_hba1c">HbA1c</string>
+    <string name="bs_fasting">खाली पेट</string>
+    <string name="bs_post_meal">खाने के बाद</string>
+    <string name="bs_random">कभी भी</string>
+    <string name="bs_add_reading">ब्लड शुगर रीडिंग जोड़ें</string>
+    <string name="bs_value_hint">मान (mg/dL)</string>
+    <string name="hba1c_add">HbA1c परिणाम जोड़ें</string>
+    <string name="hba1c_value_hint">HbA1c (%)</string>
+
+    <!-- Calendar -->
+    <string name="calendar_title">डाइट कैलेंडर</string>
+    <string name="legend_good">अच्छा दिन</string>
+    <string name="legend_difficult">मुश्किल दिन</string>
+    <string name="dialog_edit_title">दिन संपादित करें</string>
+    <string name="dialog_followed_diet">अच्छा आहार लिया</string>
+    <string name="dialog_did_not_follow">नहीं लिया</string>
+
+    <!-- Weekly Report -->
+    <string name="report_title">साप्ताहिक रिपोर्ट</string>
+    <string name="report_days_count">7 में से %1$d दिन</string>
+    <string name="report_msg_perfect">शानदार सप्ताह! आपने पूरे सप्ताह डाइट का पालन किया। बेहतरीन समर्पण! 🏆</string>
+    <string name="report_msg_excellent">इस सप्ताह बेहतरीन काम! आप एक अच्छी आदत बना रहे हैं — जारी रखें! 💪</string>
+    <string name="report_msg_good">अच्छी कोशिश! आधे से ज़्यादा दिन सही रहे। अगले सप्ताह और बेहतर करें! 🌟</string>
+    <string name="report_msg_tough">यह सप्ताह मुश्किल था। कल एक नई शुरुआत है — आप कर सकते हैं! 🌈</string>
+    <string name="report_what_happened">क्या मुश्किल बनाया</string>
+    <string name="report_share_whatsapp">WhatsApp पर शेयर करें 💚</string>
+    <string name="share_via">इसके ज़रिए शेयर करें</string>
+
+    <!-- Doctor -->
+    <string name="doctor_title">डॉक्टर विज़िट</string>
+    <string name="doctor_add_visit">डॉक्टर विज़िट जोड़ें</string>
+    <string name="doctor_name_hint">डॉक्टर का नाम</string>
+    <string name="doctor_notes_hint">नोट्स / प्रिस्क्रिप्शन</string>
+    <string name="doctor_next_visit_hint">अगली विज़िट की तारीख (वैकल्पिक)</string>
+
+    <!-- Settings -->
+    <string name="settings_title">सेटिंग्स</string>
+    <string name="settings_name_label">आपका नाम</string>
+    <string name="settings_language_label">भाषा</string>
+    <string name="settings_notif_time_label">चेक-इन याद दिलाने का समय</string>
+    <string name="settings_festival_mode">त्योहार मोड (त्योहार टिप्स दिखाएं)</string>
+
+    <!-- Notifications -->
+    <string name="notif_channel_name">डाइट चेक-इन</string>
+    <string name="notif_channel_desc">आपके डाइट चेक-इन के लिए रात की याद दिलाना</string>
+    <string name="notif_channel_reminder_name">चेक-इन याद दिलाना</string>
+
+    <!-- Plain names for drawer menu -->
+    <string name="home_btn_meal_plain">भोजन लॉग</string>
+    <string name="home_btn_blood_sugar_plain">ब्लड शुगर और HbA1c</string>
+    <string name="home_btn_calendar_plain">डाइट कैलेंडर</string>
+    <string name="home_btn_report_plain">साप्ताहिक रिपोर्ट</string>
+    <string name="home_btn_doctor_plain">डॉक्टर विज़िट</string>
+    <string name="home_btn_settings_plain">सेटिंग्स</string>
+    <string name="drawer_open">मेनू खोलें</string>
+    <string name="drawer_close">मेनू बंद करें</string>
+
+    <!-- Common -->
+    <string name="btn_next">आगे →</string>
+    <string name="btn_done">हो गया</string>
+    <string name="btn_save">सहेजें</string>
+    <string name="btn_cancel">रद्द करें</string>
+    <string name="btn_submit">जमा करें</string>
+    <string name="btn_skip">छोड़ें</string>
+    <string name="btn_log">दर्ज करें</string>
+    <string name="date_hint">तारीख (YYYY-MM-DD)</string>
+    <!-- Export / Import -->
+    <string name="settings_data_section">डेटा बैकअप</string>
+    <string name="settings_data_hint">अपना डेटा JSON फ़ाइल में निर्यात करें और Google Drive या ईमेल पर सुरक्षित रखें। इतिहास पुनः प्राप्त करने के लिए कभी भी आयात करें।</string>
+    <string name="settings_btn_export">⬆ डेटा निर्यात करें</string>
+    <string name="settings_btn_import">⬇ डेटा आयात करें</string>
+    <string name="export_success">डेटा सफलतापूर्वक निर्यात हुआ!</string>
+    <string name="export_fail">निर्यात विफल। कृपया पुनः प्रयास करें।</string>
+    <string name="import_confirm_title">डेटा आयात करें</string>
+    <string name="import_confirm_msg">यह बैकअप फ़ाइल के सभी रिकॉर्ड आपके वर्तमान डेटा में जोड़ देगा। जारी रखें?</string>
+    <string name="import_confirm_yes">हाँ, आयात करें</string>
+    <string name="import_success">%1$s की बैकअप से डेटा पुनः प्राप्त हुआ</string>
+    <string name="import_fail">आयात विफल: %1$s</string>
+
+    <string name="checkin_title">चेक इन</string>
+    <string name="reflection_nav_title">क्या हुआ?</string>
+
+    <plurals name="report_msg_some">
+        <item quantity="one">इस सप्ताह आपके %1$d अच्छे दिन रहे। हर अच्छा दिन मायने रखता है — कोशिश जारी रखें! 🌱</item>
+        <item quantity="other">इस सप्ताह आपके %1$d अच्छे दिन रहे। हर अच्छा दिन मायने रखता है — कोशिश जारी रखें! 🌱</item>
+    </plurals>
+</resources>
